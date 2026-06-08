@@ -1,0 +1,5 @@
+Tool,Task1_Summarise,Task2_Code,Task3_Reason,My_Verdict
+ChatGPT,"4 - Clean structure but missed minor details","4 - Readable code and good logic","4 - Correct reasoning with clear steps","Best all-rounder for everyday tasks."
+Claude,"5 - Preserved most nuances and key points","4 - Good code with edge case handling","5 - Most detailed reasoning","Best for long documents and careful analysis."
+Gemini,"4 - Good summary and facts","3 - Sometimes violates constraints","3 - Correct but brief reasoning","Useful for quick factual queries."
+Perplexity,"4 - Added citations and references","3 - Basic implementation","2 - Less effective for pure reasoning","Best when source verification is important."
