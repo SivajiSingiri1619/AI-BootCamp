@@ -1,0 +1,39 @@
+# Day 2 - Lab 2B - JSON Resume Extractor
+
+## Objective
+
+Build a Resume Extractor using Gemini Structured Output and Pydantic.
+
+## Errors Handled
+
+### 1. Markdown Fence Wrapping
+
+Gemini sometimes returns JSON inside markdown fences.
+
+Solution:
+Retry prompt requests raw JSON output.
+
+### 2. Missing Phone Number
+
+Solution:
+
+phone: Optional[str] = None
+
+### 3. Empty Input
+
+Pydantic ValidationError is raised and handled gracefully.
+
+## Sample Resumes Processed
+
+1. Ravi Kumar
+2. Sneha Reddy
+3. Arun Pillai
+
+Success Rate: 3/3
+
+## Learning Outcomes
+
+- Gemini Structured Output
+- Pydantic Validation
+- JSON Extraction
+- Error Handling
